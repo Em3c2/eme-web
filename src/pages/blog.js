@@ -4,7 +4,7 @@ import { Router } from "@reach/router";
 import Articles from "../components/blog/articles";
 import Post from "../components/blog/post";
 
-const apiUrl = process.env.GATSBY_API_URL;
+const apiUrl = process.env.API_URL;
 
 const Blog = () => {
   if (typeof Window === "undefined") return false;

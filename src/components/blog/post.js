@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Markdown from "react-markdown";
 import Layout from "../layout";
-import { css, jsx } from "@emotion/react";
+import { css } from "@emotion/react";
 
-const apiUrl = process.env.GATSBY_API_URL;
+const apiUrl = process.env.API_URL;
 
 const Post = ({ location }) => {
   const postSlug = location.pathname.split("/")[2];

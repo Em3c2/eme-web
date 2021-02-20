@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Layout from "../layout";
 import Card from "./card";
-import { css, jsx } from "@emotion/react";
+import { css } from "@emotion/react";
 
 const Articles = ({ articles }) => {
   const [isClient, setIsClient] = useState(false);

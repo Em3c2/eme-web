@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "@reach/router";
-import { css, jsx } from "@emotion/react";
+import { css } from "@emotion/react";
 
 const Card = ({ article }) => {
   console.log(article);
