@@ -19,7 +19,7 @@ module.exports = {
         apiURL: process.env.GATSBY_API_URL,
         contentTypes: ["article", "category", "writer"],
         singleTypes: [`about`, `homepage`, `global`],
-        queryLimit: 1000,
+        queryLimit: 5000,
       },
     },
     "gatsby-transformer-sharp",
