@@ -1,0 +1,65 @@
+<svg width="546" height="432" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d)">
+<path d="M8 224.5L158 225V334L0 428L8 224.5Z" fill="#6B4260"/>
+<path d="M446 225L502.5 175.5V340L446 432V225Z" fill="#6B4260"/>
+<rect x="321" y="225" width="117" height="207" fill="#8E5B80"/>
+<rect y="221" width="8" height="207" fill="#C4C4C4"/>
+<rect x="438" y="225" width="8" height="207" fill="#C4C4C4"/>
+<rect x="321" y="225" width="8" height="207" fill="#C4C4C4"/>
+<rect x="158" y="171" width="8" height="163" fill="#C4C4C4"/>
+<path d="M446 218L502.5 171V175.5L446 225V218Z" fill="#C4C4C4"/>
+<rect y="218" width="446" height="7" fill="#C4C4C4"/>
+<path d="M158 170.795L502.5 171L446 218H0L158 170.795Z" fill="#8E5B80"/>
+<line x1="1.00113" y1="218.5" x2="446.001" y2="219.505" stroke="white"/>
+<line x1="439.5" y1="225" x2="439.5" y2="265" stroke="#F4F4F4"/>
+<rect x="332" y="235" width="103" height="43" fill="#C4C4C4"/>
+<circle cx="383" cy="260" r="7" fill="#A8A8A8"/>
+<path d="M378 260H388V262L383 264L378 262V260Z" fill="#686565"/>
+<line x1="333" y1="236.5" x2="343" y2="236.5" stroke="white"/>
+<line x1="333.5" y1="250" x2="333.5" y2="237" stroke="white"/>
+<path d="M382.354 254.354L381 254.5L379.5 255.5L378 257L377.5 258.5" stroke="white"/>
+<rect x="332" y="283" width="103" height="43" fill="#C4C4C4"/>
+<circle cx="383" cy="308" r="7" fill="#A8A8A8"/>
+<path d="M378 308H388V310L383 312L378 310V308Z" fill="#686565"/>
+<line x1="333" y1="284.5" x2="343" y2="284.5" stroke="white"/>
+<line x1="333.5" y1="298" x2="333.5" y2="285" stroke="white"/>
+<path d="M382.354 302.354L381 302.5L379.5 303.5L378 305L377.5 306.5" stroke="white"/>
+<rect x="332" y="331" width="103" height="43" fill="#C4C4C4"/>
+<circle cx="383" cy="356" r="7" fill="#A8A8A8"/>
+<path d="M378 356H388V358L383 360L378 358V356Z" fill="#686565"/>
+<line x1="333" y1="332.5" x2="343" y2="332.5" stroke="white"/>
+<line x1="333.5" y1="346" x2="333.5" y2="333" stroke="white"/>
+<path d="M382.354 350.354L381 350.5L379.5 351.5L378 353L377.5 354.5" stroke="white"/>
+<rect x="332" y="379" width="103" height="43" fill="#C4C4C4"/>
+<circle cx="383" cy="404" r="7" fill="#A8A8A8"/>
+<path d="M378 404H388V406L383 408L378 406V404Z" fill="#686565"/>
+<line x1="333" y1="380.5" x2="343" y2="380.5" stroke="white"/>
+<line x1="333.5" y1="394" x2="333.5" y2="381" stroke="white"/>
+<path d="M382.354 398.354L381 398.5L379.5 399.5L378 401L377.5 402.5" stroke="white"/>
+<path d="M219.5 186.5L244.5 185L266 185.5L285.5 189L293 193.5L201 189L219.5 186.5Z" fill="#C4C4C4"/>
+<rect x="229" y="171" width="29" height="18" fill="#C4C4C4"/>
+<rect x="229" y="175" width="23" height="14" fill="#E6CEAA"/>
+<path d="M197.5 189H285.5L293 193.5H188L197.5 189Z" fill="#F1DCBC"/>
+<path d="M308 34L341 57.5L343 98.5L333 120.5L331 153.5L309 172L308 34Z" fill="#E6CEAA"/>
+<rect x="162" y="32" width="150" height="143" rx="10" fill="#F1DCBC"/>
+<rect x="177" y="49" width="120" height="108" rx="10" fill="#151515"/>
+<line x1="181.5" y1="61" x2="181.5" y2="79" stroke="white"/>
+<circle cx="183.5" cy="166.5" r="1.5" fill="#686565"/>
+<circle cx="189.5" cy="166.5" r="1.5" fill="#686565"/>
+<ellipse cx="195.5" cy="166.5" rx="1.5" ry="0.5" fill="#80E97E"/>
+<path d="M322.356 52.9573L341 66L341 67L321.38 54.487L322.356 52.9573Z" fill="#A8A8A8"/>
+<path d="M321.976 58L340.62 71.0427L340.62 72.0427L321.001 59.5298L321.976 58Z" fill="#A8A8A8"/>
+<path d="M321.976 64L340.62 77.0427L340.62 78.0427L321.001 65.5298L321.976 64Z" fill="#A8A8A8"/>
+</g>
+<defs>
+<filter id="filter0_d" x="0" y="0" width="545.5" height="432" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dx="39" dy="-28"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+</defs>
+</svg>

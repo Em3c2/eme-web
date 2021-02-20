@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Laila:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Truculenta:wght@500&display=swap");
+
+a {
+  text-decoration: none !important;
+}
+
+body {
+  overflow: overlay;
+}
+
+body::-webkit-scrollbar {
+  background-color: transparent;
+  width: 50px;
+}
+
+body::-webkit-scrollbar-thumb {
+  min-height: 40px;
+  background-image: url("../../images/Arrow.svg");
+  background-color: transparent;
+  background-size: 25px;
+  background-position: center calc(100% - 10px);
+  border-radius: 4px;
+  background-repeat: no-repeat;
+}
+
+.container {
+  margin: auto;
+  max-width: 300px;
+}
+
+@media (min-width: 800px) {
+  .container {
+    max-width: 750px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 900px;
+  }
+}
+
+@media (hover: hover) {
+  img:hover.interact,
+  img:active.interact,
+  img:focus.interact {
+    outline: none;
+    filter: brightness(125%);
+  }
+}
