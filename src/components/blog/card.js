@@ -2,9 +2,8 @@ import React from "react";
 import { Link } from "@reach/router";
 import { css, jsx } from "@emotion/react";
 
-const apiUrl = process.env.GATSBY_API_URL;
-
 const Card = ({ article }) => {
+  console.log(article);
   return (
     <Link to={`/blog/${article.slug}`}>
       <div
@@ -34,8 +33,11 @@ const Card = ({ article }) => {
           }}
         >
           <img
-            src={apiUrl + article.image.formats.small.url}
+            src={article.image.url}
             style={{ position: "static" }}
+            css={css`
+              width: 100%;
+            `}
           />
         </div>
         <div

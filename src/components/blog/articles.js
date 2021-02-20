@@ -3,8 +3,6 @@ import Layout from "../layout";
 import Card from "./card";
 import { css, jsx } from "@emotion/react";
 
-const apiUrl = process.env.GATSBY_API_URL;
-
 const Articles = ({ articles }) => {
   const [isClient, setIsClient] = useState(false);
 
