@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios";
+/* import axios from "axios"; */
 import Markdown from "react-markdown";
 import Layout from "../layout";
 import { css } from "@emotion/react";
@@ -16,7 +16,7 @@ const Post = ({ location }) => {
   useState(() => {
     setIsClient(true);
   }, []);
-
+/* 
   useEffect(() => {
     if (typeof Window === "undefined") return;
     axios
@@ -28,7 +28,7 @@ const Post = ({ location }) => {
         setTo404(true);
       });
   }, []);
-
+ */
   if (to404) return <h1>No encontramos el artículo</h1>;
   if (!isClient) return null;
 

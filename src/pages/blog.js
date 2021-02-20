@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios";
+/* import axios from "axios"; */
 import { Router } from "@reach/router";
 import Articles from "../components/blog/articles";
 import Post from "../components/blog/post";
@@ -11,7 +11,7 @@ const Blog = () => {
 
   const [articles, setArticles] = useState([]);
 
-  useEffect(() => {
+/*   useEffect(() => {
     axios
       .get(apiUrl + "/articles")
       .then((res) => {
@@ -20,7 +20,7 @@ const Blog = () => {
       .catch((err) => {
         console.log(err);
       });
-  }, []);
+  }, []); */
 
   return (
     <Router>

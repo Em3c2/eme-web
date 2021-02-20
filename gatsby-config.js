@@ -16,8 +16,8 @@ module.exports = {
     {
       resolve: "gatsby-source-strapi",
       options: {
-        apiURL: process.env.GATSBY_API_URL,
-        contentTypes: ["article", "category", "writer"],
+        apiURL: 'https://eme-blog.herokuapp.com',
+        contentTypes: ["article", "writer"],
         singleTypes: [`about`, `homepage`, `global`],
         queryLimit: 5000,
       },
